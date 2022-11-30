@@ -1,0 +1,24 @@
+ruby-afm (0.2.2-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Fri, 01 Jan 2021 17:01:32 +0100
+
+ruby-afm (0.2.2-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.2.2
+  * Drop ruby_compatibility.patch, not needed any more
+  * Add no_bundler.patch to remove require statements for rubygems and bundler
+    in tests.
+  * Bump Standards-Version to 3.9.5 (no changes needed)
+  * Use the ruby-tests.rb to run the tests instead of ruby-test-files.yaml
+  * Tests use ruby-minitest instead of ruby-shoulda
+
+ -- Cédric Boutillier <boutil@debian.org>  Wed, 02 Jul 2014 18:13:03 +0200
+
+ruby-afm (0.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #712962)
+
+ -- Cédric Boutillier <boutil@debian.org>  Tue, 25 Jun 2013 22:53:46 +0200

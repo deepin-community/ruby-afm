@@ -1,0 +1,14 @@
+Description: do not require rubygems nor bundler
+ dependencies are managed directly by APT
+Origin: vendor
+Author: Cédric Boutillier <boutil@debian.org>
+Forwarded: not-needed
+Last-Update: 2014-07-02
+
+--- a/test/helper.rb
++++ b/test/helper.rb
+@@ -1,4 +1,2 @@
+-require 'rubygems'
+-require 'bundler/setup'
+ require 'minitest/autorun'
+ require 'afm'
